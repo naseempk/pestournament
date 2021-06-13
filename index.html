@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PES Tournament Pallimukku</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="jquery-2.1.4.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.png" sizes="25x25">
+</head>
+<body>
+  <div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+  </div>
+  <script>
+      $(window).on("load",function(){
+        $(".loader-wrapper").fadeOut("slow");
+      });
+  </script>
+        <header class="fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse p-2" id="navbarText" >
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active ">
+                      <a class="nav-link text-dark select" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-dark select" href=#players>Players <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link text-dark select" href="#status">Status<span class="sr-only">(current)</span></a>
+                      </li>   
+                      <li class="nav-item active">
+                        <a class="nav-link text-dark select" href="#pttable">Point Table<span class="sr-only">(current)</span></a>
+                      </li> 
+                      <li class="nav-item active">
+                        <a class="nav-link text-dark select" href="#konamiservices">Konami Services<span class="sr-only">(current)</span></a>
+                      </li>                                      
+                  </ul>
+                  <span class="navbar-text season text-secondary">
+                    PES TOURNAMENT SEASON-10
+                  </span>
+                </div>
+              </nav>
+        </header>
+
+            <!--home-->
+<div class="home" id="home">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <img class="mainimage" src="images/pes2021.png" alt="">
+      </div>
+      <div class="col-md-12">
+        <iframe class="pesvideo" src="https://www.youtube.com/embed/GSXViWOyEO4" title="YouTube video player" frameborder="0" allow="accelerometer;clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="col-md-6">
+            <button class="download">
+              <a href="https://play.google.com/store/apps/details?id=jp.konami.pesam" target="_blank">Download PES 2021 For Android</a>
+            </button>
+      </div>
+      <div class="col-md-6">
+            <button class="download">
+              <a href="https://apps.apple.com/us/app/efootball-pes-2021/id1117270703" target="_blank">Download PES 2021 For Apple</a>
+            </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+         <!--players-->
+<div class="container">
+<section id="players">
+  
+    <div class=" col-md-12 title">
+      <h1 class="sectitle"> PALLIMUKK PES TOURNAMENT SEASON-10</h1>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <table>
+          <thead>
+            <tr>
+              <th>Players</th>
+              <th>Team</th>
+              <th>ID</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Naseem(Admin)</td>
+              <td>Atletico Madrid</td>
+              <td> <a href=""> 629843608</a></td>
+            </tr>
+            <tr>
+              <td>Nabeel PC(Admin)</td>
+              <td>AC Milan</td>
+              <td> <a href="">616798609</a> </td>
+            </tr>
+            <tr>
+              <td>Mubashir</td>
+              <td>Manchester United</td>
+              <td><a href="">019413036</a></td>
+            </tr>
+            <tr>
+              <td>Ashkar</td>
+              <td>Arsenal</td>
+              <td> <a href="">689020960</a></td>
+            </tr>
+            <tr>
+              <td>Fayis</td>
+              <td>Liverpool</td>
+              <td> <a href="">039992464</a></td>
+            </tr>
+            <tr>
+              <td>Suhair</td>
+              <td>Juventus</td>
+              <td> <a href="">734916915</a></td>
+            </tr>
+            <tr>
+              <td>Shamil</td>
+              <td>WE United</td>
+              <td> <a href="">013130716</a> </td>
+            </tr>
+            <tr>
+              <td>Amjad</td>
+              <td>Barcelona</td>
+              <td> <a href=""> 867164936</a></td>
+            </tr>
+            <tr>
+              <td>Anas</td>
+              <td>Roma</td>
+              <td><a href="">994114882</a></td>
+            </tr>
+            <tr>
+              <td>Mikdad</td>
+              <td>Bayern</td>
+              <td> <a href="">881626825</a></td>
+            </tr>
+            <tr>
+              <td>Jasim</td>
+              <td>Chelsea</td>
+              <td> <a href="">--------</a></td>
+            </tr>
+            <tr>
+              <td>Basith</td>
+              <td>Real Madrid</td>
+              <td> <a href=""> 936682537</a></td>
+            </tr>
+            <tr>
+              <td>Junaid</td>
+              <td>Manchester City</td>
+              <td> <a href="">858093384</a> </td>
+            </tr>
+            <tr>
+              <td>Salman Fariz</td>
+              <td>NewWells FC</td>
+              <td> <a href="">674389300</a></td>
+            </tr>
+            <tr>
+              <td>Nabeel</td>
+              <td>Inter Milan</td>
+              <td> <a href="">862796976</a></td>
+            </tr>
+            <tr>
+              <td>Luhaib</td>
+              <td>PSG</td>
+              <td> <a href="">011201202</a> </td>
+            </tr>
+            <tr>
+              <td>Shuhaib</td>
+              <td>Sevilla</td>
+              <td><a href="">035674406</a></td>
+            </tr>
+            <tr>
+              <td>Safvan</td>
+              <td>Napoli</td>
+              <td> <a href="">555498544</a> </td>
+            </tr>
+          </tbody>
+         
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--status-->
+<div class="container" style="background: #f5f6fa;" id="status">
+  <div class="col-md-12 title">
+    <h1 class="sectitle">TOURNAMENT STATUS</h1>
+    <hr>
+  </div>
+  <section id="">
+    <div class="row">
+      <div class="col-md-6">
+        <h4 class="early">
+          Early Status
+        </h4>
+        <br>
+        <p class="status">
+          <b>SEASON -1</b>  : <br> CHAMPION : MIKDAD <br>
+          RUNNER : MUBASHIR <br><br>
+
+          <b>SEASON -2</b>  : <br> CHAMPION : MIKDAD <br>
+          RUNNER : IRSHAD <br><br>
+          
+          <b>SEASON -3</b>  : <br> CHAMPION : MIKDAD <br>
+          RUNNER : SUHAIR <br><br>
+
+          <b>SEASON -4</b>  : <br> CHAMPION : NABEEL PC <br>
+          RUNNER : IRSHAD <br><br>
+          
+          <b>SEASON -5</b>  : <br> CHAMPION : FAYIS <br>
+          RUNNER : KUTTAN <br><br>
+
+          <b>SEASON -6</b>  : <br> CHAMPION : FAYIS <br>
+          RUNNER : MIKDAD <br> <br>
+          
+          <b>SEASON -7</b>  : <br> CHAMPION : ANAS <br>
+          RUNNER : UNAIS <br> <br>
+          
+          <b>SEASON -8</b>  : <br> CHAMPION : SINAN <br>
+          RUNNER : ANAS <br> <br>
+          
+          <b>SEASON -9</b>  : <br> CHAMPION : SALMAN <br>
+          RUNNER : ANAS <br> <br>
+          
+          <b>SEASON -10</b>  : <br> CHAMPION : LUHAIB <br>
+          RUNNER : SALMAN FARIZ <br> <br> 
+           
+           <hr>
+        </p>
+      </div>
+      <div class="col-md-6">
+        <h4 class="early" id="pttable">
+          Current Status
+        </h4> <br>
+          <div style="text-align: center;">
+            <h5>Check The Point Table Below </h5>
+           <i class="fas fa-arrow-down"></i>
+          </div>
+        <br> <br>
+        <div class="pt">
+          <button class="pointtable">
+            <a href="#" target="_blank" class="point">
+              POINT TABLE
+            </a>
+          </button>
+        </div>
+        <div class="join">
+          <button class="wtsp">
+            <i class="fab fa-whatsapp fa-2x"></i>
+            <a href="https://chat.whatsapp.com/BSMAFcT9yM012sSnVyiKwd" class="wtsplink">
+              Join Our Whatsapp Group
+            </a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+       <!--konami services-->
+        
+<div class="container" id="konamiservices">
+  <div class="col-md-12 title">
+    <h1 class="sectitle">KONAMI SERVICES</h1>
+    <hr>
+  </div>
+  <section>
+    <div class="row">
+      <div class="col-md-12 konamisec">
+        <div class="konamicard">
+          <i class="fas fa-portrait fa-3x" ></i>
+          <h5>Login to My KONAMI is here</h5>
+          <button> <a href="https://my.konami.net/login.html" target="_blank">Login        ></a></button>
+          <p>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _</p>
+          <i class="far fa-edit fa-3x"></i>
+          <h5>For first time visitors</h5>
+          <button> <a href=https://my.konami.net/# target="_blank">Register        ></a></button>
+          <p>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _</p>
+        </div> 
+      </div>
+    </div>
+  </section>
+</div>
+
+      <!--copyright-->
+
+<section class="copyright">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="copy">
+        <p>© [THIS WEBSITE IS DEVELOPED & DESIGNED BY NASEEM PK] [2021]:  © NSPK Designing
+          [Since 2021]</p>
+          <div class="contact">
+            <a href="naseem-personal-website.netlify.app" target="_blank" class="cntc">About Us</a>
+            <a href="https://instagram.com/__.naseem._?utm_medium=copy_lin" target="_blank" class="cntc">Contact Us</a>
+          </div>
+          <div class="btn">
+            <a href="https://instagram.com/__.naseem._?utm_medium=copy_lin" class="iconlink" target="_blank">
+              <i class="fab fa-instagram icon"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100038154182635" class="iconlink" target="_blank">
+              <i class="fab fa-facebook-f icon"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/muhammad-naseem-pk-304bb5212" class="iconlink" target="_blank">
+              <i class="fab fa-linkedin-in icon"></i>
+            </a>
+            
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
+</body>
+</html>

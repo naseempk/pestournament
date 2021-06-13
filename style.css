@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+header{
+    width:initial;
+    background: rgba(255, 254, 254, 0.966);
+    font-family: 'Patua One', cursive;
+    border-bottom: 1px solid red ;
+    z-index: 10;
+}
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+}
+.loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+}
+  
+ @keyframes loader {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}
+}
+  
+@keyframes loader-inner {
+    0% { height: 0%;}
+    25% { height: 0%;}
+    50% { height: 100%;}
+    75% { height: 100%;}
+    100% { height: 0%;}
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler:hover{
+    border: 1px solid red;
+}
+.navbar-light .navbar-brand{
+    color: #e74c3c;
+}
+.navbar-light .navbar-brand:hover{
+    color: black;
+    border-bottom: 3px solid rgb(163, 53, 53) ;
+}
+
+.season{
+    font-size: 4vh;
+    cursor: pointer;
+    color: #fff;
+}
+.nav-item{
+    padding-right: 1em;
+}
+.select{
+    font-size: 21px;
+    color: #fff;
+
+}
+.select:hover{
+    border-bottom: 3px solid rgb(163, 53, 53);
+
+}
+.mainimage{
+    margin-top: 7em;
+    width: inherit;
+}
+.pesvideo{
+    margin-top: 3em;
+    width: inherit;
+    height: 100%;
+}
+.download{
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    background: rgb(235, 22, 22);
+    margin-top: 5em;
+    width: 100%;
+    height: 3em;
+    border:none;
+    border-radius: 5px;
+}
+.download a{
+    color: #fff;
+}
+.download a:hover{
+    text-decoration: none;
+}
+
+.sectitle{
+    text-align: center;
+    color: black;
+    margin-top: 2em;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+hr{
+    border-top: 2px solid #262626;
+    width: 100%;
+    height: 5em;
+}
+#players{
+    background: gba(167, 191, 236, 0.822);
+    box-sizing: border-box;
+}
+table{
+    background: rgba(73, 51, 197, 0.575);
+    width: 100%;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+}
+th{
+    color: red;
+    border: 2px solid black;
+}
+td{
+    border: 1px solid black;
+    color: black;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+td a{
+    color: #000000;
+}
+td a:hover{
+    text-decoration: none;
+    color:#fff;
+    background: rgb(248, 56, 191);
+    
+}
+.early{
+    color: #f33c28;
+    font-weight: 600;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.status{
+    text-align: center;
+}
+.pt{
+    text-align: center;
+}
+.pointtable{
+    border-radius: 7px;
+    text-align: center;
+    width: 70%;
+    height: 6em;
+    border: none;
+    background: rgb(201, 9, 9);
+}
+.pointtable:hover{
+    background: blueviolet;
+}
+.point{
+    color: aliceblue;
+    font-size: 2em;
+    font-family: monospace ;
+    font-weight: 800;
+}
+.point:hover{
+    text-decoration: none;
+    color: chartreuse;
+}
+.join{
+    margin-top: 3em;
+    text-align: center;
+}
+.wtsp{
+    border-radius: 7px;
+    text-align: center;
+    width: 90%;
+    height: 6em;
+    border: none;
+    background: rgb(6, 187, 66);
+
+}
+.wtsp:hover{
+    background: crimson;
+}
+.wtsplink{
+    color: aliceblue;
+    font-size: 2em;
+    font-family: monospace ;
+    font-weight: 800;
+}
+.wtsplink:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.copy{
+    height: 10em;
+    background: rgb(151, 170, 170);
+    text-align: center;
+    margin-top: 1em;
+    padding-top: 1em;
+}
+.contact{
+    text-align: center;
+}
+.cntc{
+    display: inline;
+    padding-left: 1em;
+    font-size: 15px;
+    color: rgb(18, 40, 165);
+    cursor: pointer;
+}
+.iconlink{
+    color: darkmagenta;
+}
+.icon{
+    padding-left: 1em;
+    font-size: 20px;
+}
+.konamisec{
+    display: flex;
+    justify-content: center;
+}
+.konamicard{
+    border: 4px solid rgb(220, 20, 20);
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    text-decoration: none;
+}
+.konamicard i{
+    margin-top: 4px;
+    margin-left: 120px;
+    color: rgb(220, 20, 20);
+}
+.konamicard h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    padding-top: 4px;
+    text-align: center;
+}
+.konamicard button{
+    width: 100%;
+    height: 3em;
+    padding-top: 5px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background: rgb(220, 20, 20);
+    color: #fff;
+}
+.konamicard button a{
+    color: #fff;
+    font-size: 21px;
+    font-family: inherit;
+    font-weight: 600;
+}
+.konamicard p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(173, 16, 16);
+}
