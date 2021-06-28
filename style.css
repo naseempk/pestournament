@@ -4,6 +4,9 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    width:100%;
+}
 header{
     width:initial;
     background: rgba(255, 254, 254, 0.966);
