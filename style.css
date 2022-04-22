@@ -131,19 +131,19 @@ hr{
     box-sizing: border-box;
 }
 table{
-    background: rgba(73, 51, 197, 0.575);
+    background: #f5f6fa;
     width: 100%;
     border: 2px solid black;
     text-align: center;
     font-size: 20px;
 }
 th{
-    color: red;
+    color: #671584;
     border: 2px solid black;
 }
 td{
     border: 1px solid black;
-    color: black;
+    color: #1c2431;
     font-weight: 400;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
