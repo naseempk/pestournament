@@ -139,10 +139,10 @@ table{
 }
 th{
     color: #671584;
-    border: none;
+    border: 1px solid black;
 }
 td{
-    border: none;
+    border: 1px solid black;
     color: #1c2431;
     font-weight: 400;
     font-family: Arial, Helvetica, sans-serif;
@@ -152,7 +152,8 @@ td a{
 }
 td a:hover{
     text-decoration: none;
-    color:#fff;
+    color:black;
+    
     
 }
 .early{
