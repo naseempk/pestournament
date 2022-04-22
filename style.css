@@ -225,23 +225,24 @@ td a:hover{
 }
 .copy{
     height: 10em;
-    background: rgb(151, 170, 170);
+    background: #02254b;
     text-align: center;
     margin-top: 1em;
     padding-top: 1em;
 }
 .contact{
     text-align: center;
+    color:#fff;
 }
 .cntc{
     display: inline;
     padding-left: 1em;
     font-size: 15px;
-    color: rgb(18, 40, 165);
+    color: #fff;
     cursor: pointer;
 }
 .iconlink{
-    color: darkmagenta;
+    color: #fff;
 }
 .icon{
     padding-left: 1em;
