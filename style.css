@@ -184,18 +184,11 @@ td a:hover{
     border: none;
     background: rgb(201, 9, 9);
 }
-.pointtable:hover{
-    background: blueviolet;
-}
 .point{
     color: aliceblue;
     font-size: 2em;
     font-family: monospace ;
     font-weight: 800;
-}
-.point:hover{
-    text-decoration: none;
-    color: chartreuse;
 }
 .join{
     margin-top: 3em;
